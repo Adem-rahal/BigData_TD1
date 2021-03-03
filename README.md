@@ -7,18 +7,18 @@ In order to implement this you will need to install kubctl and minikube.
 
 Once the previous steps completed you can run these commands to setup and scale your Pods:
 
-'''minikube start'''
+`minikube start`
 
-'''kubectl create deployment mytodolist --image=adem0rahal/myapi'''
+`kubectl create deployment mytodolist --image=adem0rahal/myapi`
 
-'''kubectl expose deployment mytodolist --type=NodePort --port=5000'''
+`kubectl expose deployment mytodolist --type=NodePort --port=5000`
 
 You can scale it using :
 
-'''kubectl scale deployment hello-color --replicas=30'''
+`kubectl scale deployment hello-color --replicas=30`
 
 Then test it using :
 
-'''minikube service hello-color'''
+`minikube service hello-color`
 
 Enjoy :)
