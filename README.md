@@ -15,10 +15,10 @@ Once the previous steps completed you can run these commands to setup and scale 
 
 You can scale it using :
 
-`kubectl scale deployment hello-color --replicas=30`
+`kubectl scale deployment mytodolist --replicas=30`
 
 Then test it using :
 
-`minikube service hello-color`
+`minikube service mytodolist`
 
 Enjoy :)
